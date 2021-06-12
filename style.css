@@ -93,3 +93,84 @@ html{
     }
 
 }
+@media only screen and (max-width: 414px) {
+  .prev, .next{
+    font-size: 42px;
+    }
+    .next {
+      right: 9px;
+        border-radius: 3px 0 0 3px;
+      }
+      .prev, .next {
+          font-size: 2rem;
+      }
+      .text{
+        width: 100%;
+        margin: auto;
+        height: 700px;
+        font-size: 1.5rem;
+      }
+    
+      img{
+        max-width: 414px;
+        opacity: 1.4;
+      }
+      .prev:hover, .next:hover {
+        background-color: rgb(0 0 0 / 64%);
+    }
+
+}
+@media only screen and (max-width: 375px) {
+  .prev, .next{
+    font-size: 42px;
+  }
+  .next {
+    right: 6px;
+      border-radius: 3px 0 0 3px;
+  }
+ .prev, .next {
+          font-size: 2rem;
+      }
+  .text{
+        width: 100%;
+    margin: auto;
+    height: 720px;
+    font-size: 1.3rem;
+  }
+    
+  img{
+        max-width: 370px;
+        opacity: 1.4;
+      }
+  .prev:hover, .next:hover {
+        background-color: rgb(0 0 0 / 64%);
+    }
+
+}
+@media only screen and (max-width: 360px) {
+  .prev, .next{
+    font-size: 42px;
+  }
+  .next {
+    right: 6px;
+      border-radius: 3px 0 0 3px;
+  }
+ .prev, .next {
+          font-size: 2rem;
+      }
+  .text{
+        width: 100%;
+    margin: auto;
+    height: 609px;
+    font-size: 1.3rem;
+  }
+    
+  img{
+        max-width: 360px;
+        opacity: 1.4;
+      }
+  .prev:hover, .next:hover {
+        background-color: rgb(0 0 0 / 64%);
+    }
+
+}
